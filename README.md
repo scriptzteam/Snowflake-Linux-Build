@@ -5,7 +5,7 @@
 ```
 apt update
 apt upgrade
-apt install build-essential golang git
+apt install build-essential golang-go git
 git clone https://git.torproject.org/pluggable-transports/snowflake.git
 cd snowflake/proxy
 go build
